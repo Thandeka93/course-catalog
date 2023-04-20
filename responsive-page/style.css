@@ -1,0 +1,47 @@
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+th, td {
+    border: 1px solid #111111;
+    padding: 5px;
+    text-align: left;
+}
+
+.hands{
+    border-radius: 40em;
+    margin-left: 32em;
+    display: flex;
+}
+body {
+    font-family: Arial;
+    font-size: 20px;
+    margin-left: 4em;
+    background-color: rgb(202, 108, 97);
+    margin-top: 2em;
+}
+.para1{
+    font-style: normal;
+    
+}
+
+.topic1{
+    text-align: center;
+}
+.topic1 img{
+        margin-top: 0.5em;
+        /* padding-left: 5%; */
+        margin-right: 1em;
+        border-radius: 50em;
+        
+}
+@media (min-width: 500px){
+     .para1,
+     .container,
+     .topic1
+     table
+     {
+        flex-direction: column;
+     }
+
+}   
